@@ -21,12 +21,11 @@ const Home = () => {
     loadUsers(0, pgLimit, 0);
   };
 
-  const renderPage = () => {};
   return (
     <InfiniteScroll
       dataLength={users.length}
-      onScroll={() => setPgLimit(pgLimit + 2)}
-      next={() => setPage(page + 1)}
+      onScroll={() => setPgLimit(pgLimit + 1)}
+      next={() => setPage(page + 0.5)}
       hasMore={true}
     >
       <div className="container">

@@ -9,7 +9,7 @@ const Navbar = () => {
           <a href="/">
             <img
               className="navbar-brand"
-              src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/tlf2s5bvb4mdzdhtueff"
+              src="https://seeklogo.com/images/S/Smile-logo-A18DBD791A-seeklogo.com.png"
             ></img>
           </a>
           <button
